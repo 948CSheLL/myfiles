@@ -1,0 +1,19 @@
+MomCylinder.m
+line 8 -> line9; line13 -> line14; line25,26,27 - > line28,29,30; line36 - > line37
+line28,29,30 - > line25,26,27
+
+FirstField.m
+line16; line39 - > line40
+
+LinearizationSecondField.m
+line16 向量转置
+
+MetalDetection.mlapp
+line112; line786; line812,813,814 -> line815,816,817; 
+
+
+默认参数修改
+
++FirstField_wz_mtrix.m
++ObjectFun.m
++GetObiGrad.m

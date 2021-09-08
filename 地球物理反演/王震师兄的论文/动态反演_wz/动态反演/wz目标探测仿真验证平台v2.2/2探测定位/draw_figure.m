@@ -1,0 +1,14 @@
+clc;
+clear;
+close all;
+load('data.mat');
+nrow=size(nHt,1);
+ncol=size(nHt,2);
+v_x=[-0.1:0.2/(ncol-1);0.1];
+v_y=[-0.1:0.2/(nrow-1);0.1];
+image(v_x,v_y,mapminmax(nHt,0,255));
+xlabel('\fontsize{12}\fontname{ËÎÌו}\beta /rad');
+ylabel('\fontsize{12}\fontname{Times New Roman}\gamma/rad');
+axis('square');
+colorbar;
+colormap jet;
